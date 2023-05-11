@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+header{
+    background-color:#F5F5F6 ;
+    height: 50px;
+    display: flex;
+    align-items: center;
+   
+    
+}
+.head-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bank-img{
+    width: 89px;
+    height: 23px;
+    margin-left: 100px;
+ 
+}
+a{
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    margin-left: 15px;
+    color: black;
+    text-decoration: none;
+
+}
+.link-div{
+    display: inline-block;
+    margin-left: 110px;
+    
+   
+}
+.byti{
+   
+    width: 58px;
+    height: 33px;
+    font-weight: 500;
+    font-size: 11px;
+    border-radius: 4px;
+    border-color: white;
+    background: #FFFFFF;
+    cursor: pointer;
+    margin-left: 300px;
+}
+
+h1{
+    margin-left: 253px;
+    margin-top: 56px;
+    font-weight: 700;
+    font-size: 36px;
+}
+.part1{
+    margin-left: 253px;
+}
+
+ul{
+    list-style: none;
+    margin-top: 5px;
+    width: 259px;
+ 
+    display: flex;
+
+}
+li{
+    border: 1px solid lightgrey;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 12px;
+    color: #C6C6C6;
+    width: 25%;
+}
+p{
+    font-weight: 400;
+    font-size: 12px;
+    color: #9F9F9F;
+}
+
+.li-active{
+    background-color: purple;
+    color: white;
+}
+
+.l-panel:hover{
+    position: relative;
+    bottom: 5px;
+  
+}
+
+.r-panel:hover{
+    position: relative;
+    bottom: 5px;
+  
+}
+
+.l-curr , .r-curr{
+    margin-left: 13px;
+    margin-top: 30px;
+}
+
+.money{
+    width: 259px;
+    height: 102px;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+input{
+    height: 38px;
+    font-weight: 700;
+    font-size: 36px;
+    width: 100%;
+    border:none;
+    padding: 10px;
+    margin-top: 5px;
+}
+input:focus{
+    outline: none;
+}
+
+.container{
+    display: flex;
+    margin-top: 33px;
+}
